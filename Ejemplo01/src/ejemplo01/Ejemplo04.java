@@ -11,10 +11,13 @@ package ejemplo01;
  */
 public class Ejemplo04 {
     public static void main(String[] args) {
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
-        System.out.print(nombreEstudiante + " ");
+        /*
+        println nos sirve para marcar todo en una sola lina en cambio print sin el "ln" no da un paso hacia la siguiente linea.
+        */
+        String nombreEstudiante = "Lenin Alejandro";
+        String apellidoEstudiante = "Correa Velez";
+        int nacimiento = 2004;
+        System.out.println(nombreEstudiante + " ");
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
